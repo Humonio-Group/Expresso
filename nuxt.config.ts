@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from "@tailwindcss/vite";
+
 export default defineNuxtConfig({
   modules: [
     "@nuxt/eslint",
@@ -9,7 +11,15 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
   ],
   devtools: { enabled: true },
+  runtimeConfig: {
+    environment: "",
+  },
   compatibilityDate: "2025-05-15",
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
   eslint: {
     checker: true,
     config: {
