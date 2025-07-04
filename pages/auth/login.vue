@@ -48,7 +48,7 @@ const submit = handleSubmit(async (values) => {
           name="email"
         >
           <FormItem>
-            <FormLabel>{{ $t("login.fields.email") }}</FormLabel>
+            <FormLabel>{{ $t("labels.email") }}</FormLabel>
             <FormControl v-bind="componentField">
               <Input
                 type="email"
@@ -62,7 +62,7 @@ const submit = handleSubmit(async (values) => {
           name="password"
         >
           <FormItem>
-            <FormLabel>{{ $t("login.fields.password") }}</FormLabel>
+            <FormLabel>{{ $t("labels.password") }}</FormLabel>
             <FormControl>
               <div class="relative">
                 <Input

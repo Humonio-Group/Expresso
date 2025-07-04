@@ -1,5 +1,16 @@
 {
-  "hello-world": "Bonjour Monde",
+  "btn": {
+    "go-to-app": "Aller à l'application",
+    "sign-in": "Connexion",
+    "sign-up": "Créer un compte"
+  },
+  "labels": {
+    "first-name": "Prénom",
+    "last-name": "Nom",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe"
+  },
+
   "register": {
     "title": "Inscription",
     "toasts": {

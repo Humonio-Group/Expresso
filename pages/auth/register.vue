@@ -50,7 +50,7 @@ const submit = handleSubmit(async (values) => {
           name="firstName"
         >
           <FormItem>
-            <FormLabel>{{ $t("register.fields.first-name") }}</FormLabel>
+            <FormLabel>{{ $t("labels.first-name") }}</FormLabel>
             <FormControl v-bind="componentField">
               <Input placeholder="ex. John" />
             </FormControl>
@@ -61,7 +61,7 @@ const submit = handleSubmit(async (values) => {
           name="lastName"
         >
           <FormItem>
-            <FormLabel>{{ $t("register.fields.last-name") }}</FormLabel>
+            <FormLabel>{{ $t("labels.last-name") }}</FormLabel>
             <FormControl v-bind="componentField">
               <Input placeholder="ex. DOE" />
             </FormControl>
@@ -72,7 +72,7 @@ const submit = handleSubmit(async (values) => {
           name="email"
         >
           <FormItem>
-            <FormLabel>{{ $t("register.fields.email") }}</FormLabel>
+            <FormLabel>{{ $t("labels.email") }}</FormLabel>
             <FormControl v-bind="componentField">
               <Input
                 type="email"
@@ -86,7 +86,7 @@ const submit = handleSubmit(async (values) => {
           name="password"
         >
           <FormItem>
-            <FormLabel>{{ $t("register.fields.password") }}</FormLabel>
+            <FormLabel>{{ $t("labels.password") }}</FormLabel>
             <FormControl>
               <div class="relative">
                 <Input
