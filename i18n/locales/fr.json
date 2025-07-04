@@ -1,3 +1,31 @@
 {
-  "hello-world": "Bonjour Monde"
+  "hello-world": "Bonjour Monde",
+  "register": {
+    "title": "Inscription",
+    "toasts": {
+      "email-conflict": "Cette adresse e-mail est déjà assignée à un compte !",
+      "welcome": "Bienvenue {name} ! Heureux de vous voir rejoindre Expresso."
+    },
+    "fields": {
+      "first-name": "Prénom",
+      "last-name": "Nom",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe"
+    },
+    "create-account": "Créer mon compte",
+    "have-account": "J'ai déjà un compte."
+  },
+  "login": {
+    "title": "Connexion",
+    "toasts": {
+      "wrong-credentials": "La paire e-mail/mot de passe n'est pas correcte !",
+      "welcome": "Hello {name} ! Heureux de vous revoir sur Expresso."
+    },
+    "fields": {
+      "email": "Adresse e-mail",
+      "password": "Mot de passe"
+    },
+    "join": "Me connecter",
+    "no-account": "Je n'ai pas de compte."
+  }
 }
