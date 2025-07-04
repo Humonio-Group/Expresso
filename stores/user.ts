@@ -14,6 +14,7 @@ export const useUserStore = defineStore("user", {
   }),
   getters: {
     translate: () => useNuxtApp().$i18n.t,
+    loggedIn: state => !!state.user,
   },
   actions: {
     async getMe() {
