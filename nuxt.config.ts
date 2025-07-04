@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
   ],
   devtools: { enabled: true },
+  css: ["./base.css"],
   runtimeConfig: {
     environment: "",
   },
