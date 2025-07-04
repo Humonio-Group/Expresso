@@ -1,0 +1,19 @@
+Table user {
+  id int pk [default: `autoincrement()`]
+  key string unique [default: `uuid()`]
+  firstname string
+  lastname string
+  email string unique
+  password string
+  createdAt datetime [default: `now()`]
+  updatedAt datetime
+}
+
+Table session {
+  token string pk
+  userId int pk [ref: > user.id]
+
+  createdAt datetime [default: `now()`]
+  expiresAt datetime
+  revokedAt datetime [null]
+}
